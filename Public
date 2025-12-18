@@ -1,0 +1,2 @@
+git branch -M main
+git remote add origin https://github.com/Ionela87/salon-programari-web.git
