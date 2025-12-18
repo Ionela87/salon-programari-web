@@ -26,7 +26,3 @@ Datele sunt salvate local folosind localStorage.
 1. Se descarcă proiectul
 2. Se deschide fișierul `index.html` într-un browser
 
-## Autor
-Nume Student  
-Facultatea …  
-Anul …
