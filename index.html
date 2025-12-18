@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Programări Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Programări Salon</h1>
+
+    <form id="programareForm">
+        <input type="text" id="nume" placeholder="Nume client" required>
+
+        <select id="tipClient" required>
+            <option value="">Tip client</option>
+            <option value="Bărbat">Bărbat</option>
+            <option value="Femeie">Femeie</option>
+            <option value="Copil">Copil</option>
+        </select>
+
+        <input type="text" id="serviciu" placeholder="Serviciu (ex: Tuns)" required>
+        <input type="date" id="data" required>
+        <input type="time" id="ora" required>
+
+        <button type="submit">Adaugă programare</button>
+    </form>
+
+    <h2>Lista programărilor</h2>
+    <ul id="listaProgramari"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
