@@ -9,8 +9,9 @@ git commit -m "Add basic styling"
 git add script.js
 git commit -m "Add appointment logic with localStorage"
 
-git add .
-git commit -m "Final adjustments and cleanup"
+git add README.md
+git commit -m "Add project documentation"
+
 
 git branch -M main
 git remote add origin https://github.com/USERNAME/salon-programari.git
